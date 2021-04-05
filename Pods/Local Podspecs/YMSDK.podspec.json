@@ -1,0 +1,65 @@
+{
+  "name": "YMSDK",
+  "version": "0.0.9",
+  "summary": "YM系app项目基础依赖库",
+  "description": "YM系app项目基础依赖库\n* 网络模块Api\n* 路由模块PageRouter\n* Toast\n* 系统、UI配置\n* UI组件库\n* 语言本地化\n* 数据存储UserDefaults\n* sqlite/iclould",
+  "homepage": "http://git.gitcodex.com/ios/YMSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kok-app": "j02358@kok.com"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "11.0",
+    "osx": "10.13",
+    "watchos": "3.0",
+    "tvos": "11.0"
+  },
+  "source": {
+    "git": "https://github.com/onevcat/Kingfisher.git",
+    "tag": "0.0.9"
+  },
+  "source_files": [
+    "YMSDK/**/*.swift"
+  ],
+  "resources": [
+    "YMSDK/Resources/**/*.json",
+    "YMSDK/Resources/**/*.gif",
+    "YMSDK/Resources/*.xcassets",
+    "YMSDK/*.lproj",
+    "YMSDK/**/*.xib",
+    "YMSDK/**/*.storyboard"
+  ],
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "5.0"
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "Kingfisher": [
+      "~> 6.0"
+    ],
+    "SnapKit": [
+      "~> 5.0.0"
+    ],
+    "Alamofire": [
+      "~> 5.0"
+    ],
+    "HandyJSON": [
+      "~> 5.0.2"
+    ],
+    "MJRefresh": [
+      "~> 3.5.0"
+    ],
+    "Then": [
+      "~> 2.7.0"
+    ]
+  },
+  "swift_version": "5.0"
+}

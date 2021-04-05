@@ -1,0 +1,6 @@
+framework module YMSDK {
+  umbrella header "YMSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
