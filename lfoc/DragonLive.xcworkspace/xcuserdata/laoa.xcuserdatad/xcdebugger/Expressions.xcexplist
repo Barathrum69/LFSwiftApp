@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "__40+[MineProxy getBankCardSuccess:failure:]_block_invoke:MineProxy.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[FMGVideoPlayView updateProgressInfo]:FMGVideoPlayView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = " self.timeLabel.text">
+            </PersistentString>
+            <PersistentString
+               value = "self.progressTimer">
+            </PersistentString>
+            <PersistentString
+               value = "self.progressSlider.value">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HMSegmentedControl updateSegmentsRects]:HMSegmentedControl.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.segmentWidth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[MineProxy getShareLinkWithSysparamCode:itemId:success:failure:]:MineProxy.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingCell updateUI]:SettingCell.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.aswitch">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LCActionSheet blurBottomBgView]:LCActionSheet.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.blurBackgroundColor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FMGVideoPlayView layoutSubviews]:FMGVideoPlayView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+      </ContextState>
+      <ContextState
+         contextName = "__59+[LoginRegisterProxy getAdvertisingRequestSuccess:failure:]_block_invoke_2:LoginRegisterProxy.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BrightnessView updateBrightnessLevel:]:BrightnessView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tipArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ShareHeaderView layoutSubviews]:ShareHeaderView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_label.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__35-[MineViewController setupSections]_block_invoke_5:MineViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__78+[VideoProxy getCategoryOfVideoListWithCtgName:page:itemType:success:failure:]_block_invoke:VideoProxy.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[HMSegmentedControl frameForSelectionIndicator]:HMSegmentedControl.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.selectionIndicatorEdgeInsets.left">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SettingCell switchTouched:]:SettingCell.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[RecommendHeader likeButtonAction:]:RecommendHeader.m">
+      </ContextState>
+      <ContextState
+         contextName = "__64-[VideoListController loadListRequestWithCtgName:page:itemType:]_block_invoke:VideoListController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__61+[MineProxy verificationCodeCompareWithCode:success:failure:]_block_invoke:MineProxy.m">
+      </ContextState>
+      <ContextState
+         contextName = "__65+[MineProxy getShareLinkWithSysparamCode:itemId:success:failure:]_block_invoke:MineProxy.m">
+      </ContextState>
+      <ContextState
+         contextName = "__33-[LiveRoomViewController setupUI]_block_invoke_2:LiveRoomViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[LoginController passCodeBtn:]:LoginController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.codeBtn">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[VideoContentView layoutSubviews]:VideoContentView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scrollView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "kScreenWidth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__33-[FMGVideoPlayView showToolView:]_block_invoke:FMGVideoPlayView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.isShowToolView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__59+[LoginRegisterProxy getAdvertisingRequestSuccess:failure:]_block_invoke:LoginRegisterProxy.m">
+      </ContextState>
+      <ContextState
+         contextName = "+[UntilTools dealMd532BitString:salt:]:UntilTools.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "md5String">
+            </PersistentString>
+            <PersistentString
+               value = "str1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__40+[MineProxy getUserInfoSuccess:failure:]_block_invoke:MineProxy.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[VideoContentView initSegmentedControl]:VideoContentView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_segmentedControl.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FMGVideoPlayView tapAction:]:FMGVideoPlayView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.isShowToolView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__37-[FMGVideoPlayView loadingViewFrame:]_block_invoke:FMGVideoPlayView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "+[UntilTools pushSharePageSysparamCode:itemId:shareView:success:]:UntilTools.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "headerView.frame">
+            </PersistentString>
+            <PersistentString
+               value = "label.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__51-[FMGVideoPlayView videoplayViewSwitchOrientation:]_block_invoke_4:FMGVideoPlayView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contrainerViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.contrainerViewController.navigationController.shouldAutorotate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[FMGVideoPlayView updateShowTime]:FMGVideoPlayView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.showTime">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__38-[InformationController setupSections]_block_invoke_2:InformationController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__140+[MineProxy hostApplyLiveWithVerificationCode:phoneNum:realName:idCard:idImgFrontUrlGuid:idImgBackUrlGuid:idImgHandUrlGuid:success:failure:]_block_invoke:MineProxy.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[HMSegmentedControl totalSegmentedControlWidth]:HMSegmentedControl.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.segmentWidth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MatchView setSectionTitles:]:MatchView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.segmentWidth">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[VideoInformationController viewWillLayoutSubviews]:VideoInformationController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.view.bounds.size">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__41-[VideoInformationController loadRequest]_block_invoke:VideoInformationController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__59-[MatchViewController loadMatchListWithPage:ctgId:success:]_block_invoke:MatchViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

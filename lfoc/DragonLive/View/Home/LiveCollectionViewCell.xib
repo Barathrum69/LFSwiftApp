@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LiveCollectionViewCell" id="nbs-qN-xFn" customClass="LiveCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="208" height="217"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="sL7-7S-3Jd">
+                <rect key="frame" x="0.0" y="0.0" width="208" height="217"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pdo-8X-M1d">
+                        <rect key="frame" x="0.0" y="0.0" width="208" height="187"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P6c-Kn-yp9">
+                                <rect key="frame" x="0.0" y="0.0" width="208" height="187"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_itemDownBg" translatesAutoresizingMaskIntoConstraints="NO" id="3NE-cD-ngb">
+                                <rect key="frame" x="0.0" y="169" width="208" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="Rls-Rp-jPP"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="英超官方频道" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAN-Kz-woF">
+                                <rect key="frame" x="6" y="166" width="132" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="wPl-Jd-sQU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="831.9万 " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hls-Md-NxO">
+                                <rect key="frame" x="155" y="166" width="47" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7Vc-Zq-9JI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player_hot" translatesAutoresizingMaskIntoConstraints="NO" id="vBx-ir-3RP">
+                                <rect key="frame" x="144" y="171" width="11" height="11"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="11" id="AH9-rs-yZU"/>
+                                    <constraint firstAttribute="width" constant="11" id="AUy-8t-Drv"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9cm-O5-mDF" customClass="LiveStatusGifView">
+                                <rect key="frame" x="3" y="3" width="42" height="12"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CAN-Kz-woF" firstAttribute="leading" secondItem="Pdo-8X-M1d" secondAttribute="leading" constant="6" id="0DZ-tW-oNG"/>
+                            <constraint firstItem="hls-Md-NxO" firstAttribute="leading" secondItem="vBx-ir-3RP" secondAttribute="trailing" id="0Yy-nR-YtO"/>
+                            <constraint firstItem="3NE-cD-ngb" firstAttribute="leading" secondItem="Pdo-8X-M1d" secondAttribute="leading" id="JZM-hq-GSq"/>
+                            <constraint firstAttribute="trailing" secondItem="3NE-cD-ngb" secondAttribute="trailing" id="QTJ-pM-OR5"/>
+                            <constraint firstAttribute="bottom" secondItem="hls-Md-NxO" secondAttribute="bottom" id="Qlt-Ms-JjK"/>
+                            <constraint firstAttribute="trailing" secondItem="hls-Md-NxO" secondAttribute="trailing" constant="6" id="g37-9Y-4Hc"/>
+                            <constraint firstAttribute="trailing" secondItem="CAN-Kz-woF" secondAttribute="trailing" constant="70" id="ghW-Or-gYc"/>
+                            <constraint firstAttribute="bottom" secondItem="vBx-ir-3RP" secondAttribute="bottom" constant="5" id="sar-rB-2ec"/>
+                            <constraint firstAttribute="bottom" secondItem="CAN-Kz-woF" secondAttribute="bottom" id="ssW-Q4-JBC"/>
+                            <constraint firstAttribute="bottom" secondItem="3NE-cD-ngb" secondAttribute="bottom" id="whQ-3j-kXY"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="利物浦vs皇马" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gx-Ue-IzN">
+                        <rect key="frame" x="6" y="191" width="198" height="20"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.13333333333333333" green="0.13333333333333333" blue="0.13333333333333333" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Pdo-8X-M1d" firstAttribute="leading" secondItem="sL7-7S-3Jd" secondAttribute="leading" id="Tni-k4-8Qi"/>
+                    <constraint firstAttribute="trailing" secondItem="Pdo-8X-M1d" secondAttribute="trailing" id="c8N-pd-Saf"/>
+                    <constraint firstItem="Pdo-8X-M1d" firstAttribute="top" secondItem="sL7-7S-3Jd" secondAttribute="top" id="doN-1d-RfP"/>
+                    <constraint firstAttribute="bottom" secondItem="Pdo-8X-M1d" secondAttribute="bottom" constant="30" id="uzc-kU-Zfp"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <size key="customSize" width="208" height="217"/>
+            <connections>
+                <outlet property="coverImgView" destination="P6c-Kn-yp9" id="RGv-5a-mID"/>
+                <outlet property="gifView" destination="9cm-O5-mDF" id="kZz-7y-mcV"/>
+                <outlet property="hostNameLab" destination="CAN-Kz-woF" id="161-Rt-G2T"/>
+                <outlet property="hotImgView" destination="vBx-ir-3RP" id="YC8-6G-zvZ"/>
+                <outlet property="liveHotLab" destination="hls-Md-NxO" id="RSc-yR-aVI"/>
+                <outlet property="liveTitleLab" destination="3Gx-Ue-IzN" id="Lz5-w3-zJi"/>
+            </connections>
+            <point key="canvasLocation" x="-208.69565217391306" y="33.816964285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="live_itemDownBg" width="187.5" height="18"/>
+        <image name="player_hot" width="11" height="11"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

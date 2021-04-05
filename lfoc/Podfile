@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DragonLive' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for DragonLive
+  pod 'AFNetworking'
+  pod 'SDWebImage'
+  pod 'Masonry'
+  pod 'YYKit'
+  pod 'TXLiteAVSDK_Professional'
+  pod 'XMPPFramework'
+  pod 'EasyShowView'
+  pod 'OCBarrage'
+  pod 'UITextView+Placeholder'
+  pod 'SVGAPlayer'
+#  pod 'MJRefresh'
+#  pod 'ZFPlayer'
+  pod 'LBPresentTransitions'
+  pod 'FLDragView'
+  pod 'AXNavigationBackItemInjection'
+  pod 'NJKWebViewProgress'
+  pod 'Aspects'
+  pod 'AXPracticalHUD'
+  pod 'IQKeyboardManager'
+  target 'DragonLiveTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DragonLiveUITests' do
+    # Pods for testing
+  end
+
+ 
+  
+end
